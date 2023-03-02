@@ -1,0 +1,90 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul {
+  margin: 5px;
+  padding: 0;
+  background-color: green;
+}
+
+.nav-ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  padding: 5px;
+}
+.footer {
+  background-color: green;
+  color: white;
+  font-family: cursive;
+  margin: 5px;
+  position: fixed;
+  padding: 5px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height:10px
+}
+
+.inputBox {
+  display: block;
+  font-family: cursive;
+  border: 2px solid green;
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 28px;
+  height: 33px;
+}
+.register,.product{
+  margin-left: 30%;
+}
+.btn {
+  border: 2px solid green;
+  width: 126px;
+  height: 39px;
+  color: white;
+  background-color: green;
+  margin-left: 17%;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
